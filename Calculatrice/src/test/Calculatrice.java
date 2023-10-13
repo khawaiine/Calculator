@@ -6,6 +6,9 @@ public class Calculatrice {
 		// TODO Auto-generated method stub
 		int a;
 		int b;
+		int merelys;
+		int push;
+		
 	}
 
 }
