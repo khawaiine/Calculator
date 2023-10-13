@@ -14,6 +14,7 @@ public class Calculatrice {
 		if (a == 2 and b == 2) return 4;
 		javafx = fenetre;
 		print (calculatrice)
+		int fs;
 	}
 
 }
