@@ -9,6 +9,11 @@ public class Calculatrice {
 		int pl;
 		int sami_dieu;
 		int je_push_dans_pl;
+		
+		stack.pop();
+		if (a == 2 and b == 2) return 4;
+		javafx = fenetre;
+		print (calculatrice)
 	}
 
 }
