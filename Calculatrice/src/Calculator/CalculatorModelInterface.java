@@ -1,4 +1,4 @@
-package test;
+package Calculator;
 
 public interface CalculatorModelInterface {
 	public void add();
