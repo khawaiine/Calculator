@@ -6,9 +6,8 @@ public class Model implements CalculatorModelInterface {
 	public String accumulator;
 	public Stack<Float> pile;
 	
-	public void Model (String a) {
-		String accumulator = a;
-		Stack<Float> pile;
+	public Model(String acc) {
+		this.accumulator = acc;
 	}
 	
 	public void add() {

@@ -3,14 +3,16 @@ package Calculator;
 public class Main {
 
 	public static void main(String[] args) {
-		Model(0);
-		Model.accumulator = "45";
-		Model.accumulator.push();
-		Model.accumulator = "15";
-		Model.accumulator.push()
 		
-		Model.pile.add();
-		System.out.println(Model.pile.pop());
+		Model model = new Model("10");
+		
+		model.accumulator = "45";
+		model.push();
+		model.accumulator = "15";
+		model.push();
+		
+		model.add();
+		System.out.println(model.pile.pop());
 
 	}
 
