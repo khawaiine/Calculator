@@ -1,10 +1,15 @@
 package Calculator;
-import java.util.Stack
+import java.util.Stack;
 
 public class Model implements CalculatorModelInterface {
 	
-	public String accumulator
-	public Stack<float> pile;
+	public String accumulator;
+	public Stack<Float> pile;
+	
+	public void Model (String a) {
+		String accumulator = a;
+		Stack<Float> pile;
+	}
 	
 	public void add() {
 		float a = pile.pop();
@@ -32,13 +37,13 @@ public class Model implements CalculatorModelInterface {
 	}
 	public void push() {
 		pile.push(Float.parseFloat(accumulator));
-		accumulator = ""
+		accumulator = "";
 	}
 	public float pop() {
 		return pile.pop();
 	}
 	public void drop() {
-		pile.pop()
+		pile.pop();
 	}
 	public void swap() {
 		float a = pile.pop();
