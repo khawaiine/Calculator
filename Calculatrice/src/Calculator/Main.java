@@ -1,3 +1,4 @@
+
 package Calculator;
 
 public class Main {
@@ -11,8 +12,22 @@ public class Main {
 		model.accumulator = "15";
 		model.push();
 		
-		model.add();
-		System.out.println(model.pile.pop());
+		model.substract();
+		
+		System.out.println(model.pile.firstElement());
+		
+		model.accumulator = "2";
+		model.push();
+		model.multiply();
+		
+		System.out.println(model.pile.firstElement());
+		
+		model.accumulator = "15";
+		model.push();
+		model.divide();
+		System.out.println(model.pile.firstElement());
+		
+		
 
 	}
 
